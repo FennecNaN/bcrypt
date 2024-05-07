@@ -1,7 +1,7 @@
 {
   "name": "bcrypt",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es una aplicación sencilla en Node.js utilizando Express para demostrar la autenticación JWT (Token Web JSON). La aplicación incluye inicio de sesión de usuarios, generación de tokens, verificación de tokens y un panel básico accesible solo para usuarios autenticados.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,6 @@
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "devDependencies": {}
 }
